@@ -1,0 +1,88 @@
+:root {
+  font-size: 18px;
+
+  --green: hsl(160deg, 100%, 30%);
+  --light-gold: hsl(45deg, 100%, 50%);
+  --gold: hsl(45deg, 100%, 40%);
+  --black: hsl(0deg, 0%, 0%);
+  --very-dark-grey: hsl(0deg, 0%, 10%);
+  --dark-grey: hsl(0deg, 0%, 30%);
+  --grey: hsl(0deg, 0%, 40%);
+  --light-grey: hsl(0deg, 0%, 60%);
+  --white: hsl(0deg, 0%, 100%);
+
+  --p-1: 8px;
+  --p-2: 16px;
+  --p-3: 24px;
+  --p-4: 32px;
+  --p-5: 48px;
+  --p-6: 64px;
+  --p-7: 96px;
+  --p-8: 128px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  border-bottom: 6px solid var(--grey);
+}
+
+main {
+  background-color: var(--light-grey);
+  padding: var(--p-6) 0;
+}
+
+strong {
+  color: var(--green);
+}
+
+.max-width-wrapper {
+  max-width: 625px;
+  margin: auto;
+}
+
+.intro-chunk {
+  padding-top: var(--p-7);
+  padding-left: var(--p-3);
+  padding-bottom: var(--p-5);
+  padding-right: var(--p-3);
+  max-width: 400px;
+}
+
+.intro-chunk .title {
+  font-size: 2rem;
+  margin-bottom: var(--p-3);
+}
+
+.intro-chunk p {
+  font-size: 1.25rem;
+}
+
+.card {
+  background-color: var(--white);
+  padding-left: var(--p-3);
+  padding-top: var(--p-2);
+  padding-bottom: var(--p-2);
+  padding-right: var(--p-3);
+  border-bottom: 6px solid var(--grey);
+}
+
+.indented-heading {
+  width: fit-content;
+  max-width: 99%;
+  font-size: 1.5rem;
+  background-color: var(--light-gold);
+  padding: var(--p-2) var(--p-4);
+  border-bottom: 6px solid var(--gold);
+  margin-top: -4px;
+  margin-left: -36px;
+}
